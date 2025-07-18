@@ -45,7 +45,7 @@ const SignUp = () => {
         phone: formData.phoneNumber,
         department: formData.department,
         password: formData.password,
-        role: 'User' // Hardcoded as User only
+        role: 'User'
       }, {
         headers: {
           'Content-Type': 'application/json'
