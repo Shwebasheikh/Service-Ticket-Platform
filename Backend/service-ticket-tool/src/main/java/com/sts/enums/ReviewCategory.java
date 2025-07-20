@@ -1,5 +1,10 @@
 package com.sts.enums;
 
-public enum ReviewCategory {
-
+public enum ReviewCategory 
+{
+	QUALITY,
+    COMMUNICATION,
+    TIMELINESS,
+    TECHNICAL_SKILL,
+    TEAMWORK
 }
