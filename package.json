@@ -10,8 +10,13 @@
     "react-router-dom": "^7.7.0",
     "react-scripts": "^5.0.1"
   },
+
   "devDependencies": {
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.3.0"
-  }
+  },
+  "scripts": {
+  "start": "node index.js"
+}
+
 }
