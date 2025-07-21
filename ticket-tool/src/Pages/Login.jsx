@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Container, Form, Button, Card, Row, Col, Alert, Spinner } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './Login.css';
+import '../Styles/Login.css'; // Assuming you have a CSS file for styling
 import axios from 'axios';
 
 const Login = () => {

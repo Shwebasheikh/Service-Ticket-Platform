@@ -1,0 +1,108 @@
+/* Custom styles for the service request form */
+.service-request-container {
+    max-width: 900px;
+}
+
+.card {
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.card-header {
+    padding: 1.5rem 2rem;
+}
+
+.section-title {
+    color: #2c3e50;
+    border-bottom: 2px solid #f0f0f0;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.form-label {
+    margin-bottom: 0.5rem;
+}
+
+.form-control-lg, .form-select-lg {
+    padding: 0.75rem 1rem;
+    border-radius: 8px;
+    border: 1px solid #ced4da;
+}
+
+.priority-options {
+    background-color: #f8f9fa;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.priority-indicator {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.priority-indicator.high {
+    background-color: #dc3545;
+}
+
+.priority-indicator.medium {
+    background-color: #fd7e14;
+}
+
+.priority-indicator.low {
+    background-color: #28a745;
+}
+
+.form-check-input.priority-high:checked {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.form-check-input.priority-medium:checked {
+    background-color: #fd7e14;
+    border-color: #fd7e14;
+}
+
+.form-check-input.priority-low:checked {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.file-upload-area {
+    border: 2px dashed #dee2e6;
+    border-radius: 12px;
+    padding: 2rem;
+    text-align: center;
+    transition: all 0.3s;
+}
+
+.file-upload-area:hover {
+    border-color: #0d6efd;
+    background-color: rgba(13, 110, 253, 0.05);
+}
+
+.file-upload-label {
+    cursor: pointer;
+    display: block;
+}
+
+.file-upload-content {
+    color: #6c757d;
+}
+
+.file-preview {
+    margin-top: 1rem;
+}
+
+.list-group-item {
+    border-radius: 6px !important;
+    margin-bottom: 0.5rem;
+}
+
+.btn-lg {
+    border-radius: 8px;
+    font-size: 1.1rem;
+}

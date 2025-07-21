@@ -1,0 +1,54 @@
+.ticket-bg {
+  background: radial-gradient(circle at center, #2c0050, #0d001f);
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.ticket-card {
+  max-width: 700px;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  box-shadow: 0 0 30px rgba(128, 0, 255, 0.3);
+}
+
+.ticket-card input,
+.ticket-card textarea,
+.ticket-card select {
+  background-color: rgba(255, 255, 255, 0.05);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.ticket-card input::placeholder,
+.ticket-card textarea::placeholder {
+  color: #ccc;
+}
+
+.ticket-card .form-control:focus {
+  border-color: #a855f7;
+  box-shadow: 0 0 5px rgba(168, 85, 247, 0.5);
+}
+
+.form-icon {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: white;
+  opacity: 0.5;
+}
+
+.mic {
+  bottom: 10px;
+  top: unset;
+}
+
+.upload-box {
+  border: 2px dashed rgba(255, 255, 255, 0.3);
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.03);
+  transition: background 0.3s ease;
+}
