@@ -1,5 +1,7 @@
 package com.sts.enums;
 
-public enum UserRole {
+public enum UserRole 
+{
+	USER,EMPLOYEE,ADMIN
 
 }
