@@ -1,5 +1,9 @@
 package com.sts.enums;
 
-public enum ReviewCategory {
-
+public enum ReviewCategory 
+{
+	    QUALITY,
+	    SPEED,
+	    COMMUNICATION,
+	    SUPPORT
 }
