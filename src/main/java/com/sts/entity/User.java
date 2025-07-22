@@ -24,7 +24,6 @@ import lombok.NonNull;
 
 @Entity
 @Data
-
 @Table(name = "users")
 @NoArgsConstructor
 public class User
@@ -47,7 +46,6 @@ public class User
 
     @Column
     private String department;
-
     @NonNull
     @Enumerated(EnumType.STRING)
     private UserRole role; // USER, EMPLOYEE, ADMIN

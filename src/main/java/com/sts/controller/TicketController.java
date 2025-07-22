@@ -18,19 +18,17 @@ import com.sts.service.TicketService;
 @RestController
 @RequestMapping("/tickets")
 public class TicketController {
-	
- @Autowired
- private TicketService ticketService;
- 
- @PostMapping("/createTicket")
- public ResponseEntity<TicketResponse> createTicket(@RequestBody TicketRequest
-request) {
- return new ResponseEntity<>(ticketService.createTicket(request),
-HttpStatus.CREATED);
- }
- 
- @GetMapping("/GetAllTickets")
- public ResponseEntity<List<TicketResponse>> getAllTickets() {
- return ResponseEntity.ok(ticketService.getAllTickets());
- }
+
+	@Autowired
+	private TicketService ticketService;
+
+	@PostMapping("/createTicket")
+	public ResponseEntity<TicketResponse> createTicket(@RequestBody TicketRequest request) {
+		return new ResponseEntity<>(ticketService.createTicket(request), HttpStatus.CREATED);
+	}
+
+	@GetMapping("/GetAllTickets")
+	public ResponseEntity<List<TicketResponse>> getAllTickets() {
+		return ResponseEntity.ok(ticketService.getAllTickets());
+	}
 }
