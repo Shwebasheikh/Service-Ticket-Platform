@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-node_modules
-=======
 HELP.md
 target/
 .mvn/wrapper/maven-wrapper.jar
@@ -34,4 +31,3 @@ build/
 
 ### VS Code ###
 .vscode/
->>>>>>> branch 'master' of https://github.com/Shwebasheikh/Service-Ticket-Platform.git
