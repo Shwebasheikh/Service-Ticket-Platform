@@ -50,10 +50,10 @@ public class User
     @Enumerated(EnumType.STRING)
     private UserRole role; // USER, EMPLOYEE, ADMIN
 
-    @OneToMany(mappedBy = "user", cascade = CascadeType.ALL)
+    @OneToMany(mappedBy = "user", cascade = CascadeType.ALL,orphanRemoval = true)
     private List<Ticket> tickets;
 
-    @OneToMany(mappedBy = "reviewer", cascade = CascadeType.ALL)
+    @OneToMany(mappedBy = "reviewer", cascade = CascadeType.ALL,orphanRemoval = true)
     private List<Review> reviewsGiven;
 
     @CreationTimestamp

@@ -11,7 +11,7 @@ import com.sts.dto.request.UserRequest;
 import com.sts.dto.response.UserResponse;
 import com.sts.entity.User;
 import com.sts.enums.UserRole;
-import com.sts.exception_handling.UserNotFoundException;
+import com.sts.handleException.UserNotFoundException;
 import com.sts.repository.UserRepository;
 import com.sts.service.IUserService;
 
